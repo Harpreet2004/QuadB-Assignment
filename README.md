@@ -1,8 +1,25 @@
-# React + Vite
+# DoIt Task Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Built a Modern and Responsive todo list with light/dark toggle mode using ReactJs, TailwindCss
 
-Currently, two official plugins are available:
+# Visuals
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Dark Mode Pc
+![darkpcimg](ss/Darkpc.png)
+
+Dark Mode Tab
+![darkpcimg](ss/darktab.png)
+
+Dark Mode Mobile
+
+![darkpcimg](ss/darkmob.png)
+
+Light Mode Pc
+![darkpcimg](ss/lightpc.png)
+
+Light Mode Tab
+![darkpcimg](ss/lighttab.png)
+
+Light Mode Mobile
+
+![darkpcimg](ss/lightmob.png)
