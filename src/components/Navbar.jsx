@@ -30,18 +30,18 @@ const Navbar = () => {
         <div className="flex items-center space-x-3">
           <button className="p-2 rounded-md hover:bg-gray-700 dark:hover:bg-gray-200">
             
-            <img className="invert dark:invert-0" src="src/assets/menu.png" alt="menu" />
+            <img className="invert dark:invert-0" src="/menu.png" alt="menu" />
           </button>
-          <img className="max-[375px]:h-[15px]" src="src/assets/logo.png" alt="logo" />
+          <img className="max-[375px]:h-[15px]" src="/logo.png" alt="logo" />
         </div>
 
         <div className="flex items-center space-x-4">
           <button className="p-2 rounded-md hover:bg-gray-700 dark:hover:bg-gray-200">
-            <img className="dark:invert" src="src/assets/search.png" alt="search" />
+            <img className="dark:invert" src="/search.png" alt="search" />
           </button>
             <button className="flex items-center space-x-2 p-2 rounded-md hover:bg-gray-700 focus:outline-none dark:hover:bg-gray-200">
               <img
-                src="src/assets/app-grid.png"
+                src="/app-grid.png"
                 alt="Profile"
                 className="rounded-full w-6 h-6 dark:invert"
               />
@@ -52,11 +52,11 @@ const Navbar = () => {
     >
       {theme === "light" ?
         <button className="flex items-center space-x-2 p-2 rounded-md hover:bg-gray-700 focus:outline-none dark:hover:bg-gray-200">
-       <img className="rounded-full w-6 h-6 dark:invert" src="src/assets/toggle.png" alt="" /> 
+       <img className="rounded-full w-6 h-6 dark:invert" src="/toggle.png" alt="" /> 
        </button>
        : 
         <button className="flex items-center space-x-2 p-2 rounded-md hover:bg-gray-700 focus:outline-none dark:hover:bg-gray-200">
-      <img className="dark:hover:bg-gray-200 rounded-full w-6 h-6" src="src/assets/night.png" alt="" />
+      <img className="dark:hover:bg-gray-200 rounded-full w-6 h-6" src="/night.png" alt="" />
       </button>
       }
     </button>

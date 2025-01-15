@@ -6,7 +6,7 @@ const Sidebar = () => {
     <div className="h-[52rem] w-64 bg-[#2C2C2C] p-4 flex flex-col dark:bg-[#EEF6EF] max-[556px]:w-[13rem] max-[457px]:h-[60rem] max-[430px]:w-[11rem] max-[430px]:h-[65rem] max-[390px]:w-[9.8rem] max-[375px]:hidden">
       <div className="text-center">
         <img
-          src="src/assets/profile.png"
+          src="/profile.png"
           alt="Profile"
           className="rounded-full w-20 h-20 mx-auto"
         />
@@ -15,25 +15,25 @@ const Sidebar = () => {
       <div className="mt-6 bg-[#232323] dark:bg-[#FBFDFC] p-4">
         <ul className="py-2">
           <li className="py-2 px-4 rounded-lg hover:bg-gray-700 flex items-center gap-2 dark:text-[#1B281B] dark:hover:bg-gray-200 max-[430px]:flex-col">
-            <span><img className="dark:invert" src="src/assets/hugeicons_task-01.png" alt="" /></span> All Tasks
+            <span><img className="dark:invert" src="/hugeicons_task-01.png" alt="" /></span> All Tasks
           </li>
           <li className="py-2 px-4 rounded-lg bg-[#35793729] flex items-center gap-2 text-[#98E19B] dark:text-[#357937] font-medium max-[430px]:flex-col">
-            <span><img className="dark:invert" src="src/assets/calendar.png" alt="" /></span> Today
+            <span><img className="dark:invert" src="/calendar.png" alt="" /></span> Today
           </li>
           <li className="py-2 px-4 rounded-lg hover:bg-gray-700 flex items-center gap-2 dark:text-[#1B281B] dark:hover:bg-gray-200 max-[430px]:flex-col">
-            <span><img className="dark:invert" src="src/assets/clock.png" alt="" /></span> Important
+            <span><img className="dark:invert" src="/clock.png" alt="" /></span> Important
           </li>
           <li className="py-2 px-4 rounded-lg hover:bg-gray-700 flex items-center gap-2 dark:text-[#1B281B] dark:hover:bg-gray-200 max-[430px]:flex-col">
-          <span><img className="dark:invert" src="src/assets/clock-1.png" alt="" /></span> Pinned
+          <span><img className="dark:invert" src="/clock-1.png" alt="" /></span> Pinned
           </li>
           <li className="py-2 px-4 rounded-lg hover:bg-gray-700 flex items-center gap-2 dark:text-[#1B281B] dark:hover:bg-gray-200 max-[430px]:flex-col">
-          <span><img className="dark:invert" src="src/assets/clock-2.png" alt="" /></span> Assigned
+          <span><img className="dark:invert" src="/clock-2.png" alt="" /></span> Assigned
           </li>
         </ul>
       </div>
       <div className="bg-[#232323] dark:bg-[#FBFDFC] p-10 mt-4">
         <div className="flex gap-x-4 justify-start items-start  max-[430px]:flex-col  max-[430px]:justify-center  max-[430px]:items-center  max-[430px]:gap-2">
-          <img className="dark:invert" src="src/assets/vector.png" alt="plus-icon" />
+          <img className="dark:invert" src="/Vector.png" alt="plus-icon" />
           <h4 className="dark:text-[#1B281B] font-medium	">Add list</h4>
         </div>
       </div>
@@ -42,7 +42,7 @@ const Sidebar = () => {
       <div className="flex flex-col items-start border-b-[2px] border-[#1B1B1B] dark:text-[#1B281B] dark:border-[#F0F0F0]">
         <div className="flex justify-center items-center gap-[58px] max-[430px]:flex-col max-[430px]:gap-[20px]">
         <h2 className="text-lg font-semibold ">Today Tasks</h2>
-        <img className="dark:invert-0" src="src/assets/info.png" alt="info" />
+        <img className="dark:invert-0" src="/info.png" alt="info" />
         </div>
         <span>11</span>
       </div>
@@ -51,7 +51,7 @@ const Sidebar = () => {
 
       {/* Legend Section */}
       <div className="flex justify-center flex-col space-x-4 mt-4 dark:text-[#1B281B]">
-        <img src="src/assets/chart.png" alt="" />
+        <img src="/chart.png" alt="" />
 
         <div className="flex gap-4 max-[430px]:flex-col">
         <div className="flex items-center">

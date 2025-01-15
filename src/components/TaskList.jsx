@@ -21,7 +21,7 @@ const TaskList = () => {
     <div>
       <div className="flex items-center">
       <h3 className="font-semibold mb-2 text-[#97F69BB5] dark:text-[#142E159E]">To Do</h3>
-      <img className="dark:invert" src="src/assets/caret-down.png" alt="" />
+      <img className="dark:invert" src="/caret-down.png" alt="" />
       </div>
       <div className="bg-[#496E4B33] p-4 rounded-lg mb-6 gap-10 dark:bg-cstgrad">
         <div className="py-8">
@@ -33,9 +33,9 @@ const TaskList = () => {
         </div>
         <div className="flex justify-between items-center max-[502px]:flex-col  max-[502px]:gap-y-5">
           <div className="flex gap-4">
-            <img className="dark:invert" src="src/assets/notification.png" alt="notification" />
-            <img className="dark:invert" src="src/assets/bi_repeat.png" alt="bi_repeat" />
-            <img className="dark:invert" src="src/assets/calendar.png" alt="calendar" />
+            <img className="dark:invert" src="/notification.png" alt="notification" />
+            <img className="dark:invert" src="/bi_repeat.png" alt="bi_repeat" />
+            <img className="dark:invert" src="/calendar.png" alt="calendar" />
           </div>
           <div>
             <button className="bg-[#357937E0] py-[8px] px-[16px] rounded-[8px] dark:bg-[#35793729] dark:text-[#357937] font-medium	">ADD TASK</button>
@@ -52,7 +52,7 @@ const TaskList = () => {
       <span>{task.text}</span>
       </div>
       <button>
-        <img className="dark:invert" src="src/assets/star.png" alt="star" />
+        <img className="dark:invert" src="/star.png" alt="star" />
       </button>
     </div>
   );
@@ -70,7 +70,7 @@ const TaskList = () => {
             <span className="line-through	">{task.text}</span>
             </div>
             <button>
-              <img  className="dark:invert" src="src/assets/star.png" alt="star" />
+              <img  className="dark:invert" src="/star.png" alt="star" />
             </button>
           </div>
           ))}
